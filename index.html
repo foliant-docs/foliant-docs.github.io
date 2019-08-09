@@ -1,147 +1,48 @@
 <!DOCTYPE HTML>
 <!--
-	Strongly Typed by HTML5 UP
+	Aerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Foliant the Universal Documentation Builder</title>
+		<title>Aerial by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#444444">
-		<meta name="msapplication-TileColor" content="#000000">
-		<meta name="theme-color" content="#ffffff">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="homepage is-preload">
-		<div id="page-wrapper">
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-			<!-- Header -->
-				<section id="header">
-					<div class="container">
+				<!-- Header -->
+					<header id="header">
+						<h1>Foliant</h1>
+						<p>Write in Markdown, ship to html, pdf, docx, and Google Docs</p>
+						<nav>
+							<ul>
+								<li><a href="/docs" class="icon solid fa-book"><span class="label">Docs</span></a></li>
+								<li><a href="https://github.com/foliant-docs/foliant" class="icon brands fa-github"><span class="label">Code</span></a></li>
+								<li><a href="https://t.me/foliantdocs" class="icon brands fa-telegram"><span class="label">Community</span></a></li>
+								<li><a href="https://hub.docker.com/r/foliant/foliant" class="icon brands fa-docker"><span class="label">Github</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
-						<!-- Logo -->
-							<h1 id="logo"><a href="index.html">Foliant</a></h1>
-							<p>Write in Markdown once and ship to html, pdf, docx, and Google Docs</p>
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Foliant. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
+					</footer>
 
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li><a class="icon solid fa-bolt" href="#quickstart"><span>Quickstart</span></a></li>
-									<li><a class="icon solid fa-book" href="/docs"><span>Docs</span></a></li>
-									<li><a class="icon brands fa-docker" href="https://hub.docker.com/r/foliant/foliant"><span>Images</span></a></li>
-									<li><a class="icon brands fa-github-alt" href="https://github.com/foliant-docs/foliant"><span>Code</span></a></li>
-									<li><a class="icon brands fa-telegram-plane" href="https://t.me/foliantdocs"><span>Community</span></a></li>
-								</ul>
-							</nav>
-
-					</div>
-				</section>
-
-			<!-- Features -->
-				<section id="features">
-					<div class="container">
-						<div class="row aln-center">
-							<div class="col-4 col-6-medium col-12-small">
-
-								<!-- Feature -->
-									<section>
-										<img src="images/pic01.jpg" alt="" />
-										<header>
-											<h3>Write in Markdown</h3>
-										</header>
-										<p>Foliant uses Markdown, so writing new docs and migrating from MkDocs or Pandoc is easy.</p>
-									</section>
-
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
-
-								<!-- Feature -->
-									<section>
-										<img src="images/pic02.jpg" alt="" />
-										<header>
-											<h3>Use the Power of Preprocessors</h3>
-										</header>
-										<p>Preprocessors allow you to <a href="/docs/preprocessors/includes/">include documents</a>, <a href="/docs/preprocessors/blockdiag/">embed diagrams</a>, <a href="/docs/preprocessors/pgsqldoc/">generate DB schemes</a>, and more. Choose from existing preprocessors write your own.</p>
-									</section>
-
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
-
-								<!-- Feature -->
-									<section>
-										<img src="images/pic03.jpg" alt="" />
-										<header>
-											<h3>Ship to many targets at once</h3>
-										</header>
-										<p>Foliant allows you to build the docs in html, pdf, and docx formats without editing the source for each target. Powered by <a href="/docs/backends/mkdocs/">MkDocs</a>, <a href="/docs/backends/pandoc/">Pandoc</a>, and <a href="/docs/backends/slate/">Slate</a>.</p>
-									</section>
-
-							</div>
-							<div class="col-12">
-								<ul class="actions">
-									<li><a href="#quickstart" class="button icon solid fa-bolt">Get Started</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</section>
-
-			<!-- Main -->
-				<section id="main">
-					<div class="container">
-						<div class="row">
-
-							<!-- Content -->
-								<div id="content" class="col-8 col-12-medium">
-
-									<!-- Post -->
-										<article id="quickstart" class="box post">
-											<header>
-												<h2>Quickstart</h2>
-											</header>
-											<h3>Install</h3>
-											<p>
-												Install Foliant with pip (Python 3.6+ required) or use the official Docker image.
-											</p>
-											<h3>Start Project</h3>
-											<p>Start new project with foliant init.</p>
-											<h3>Build Project</h3>
-											<p>Build a MkDocs-powered site with pip install foliantcontrib.mkdocs && foliant make site.</p>
-											<ul class="actions">
-												<li><a href="/docs" class="button icon solid fa-book">Read the Docs</a></li>
-											</ul>
-										</article>
-
-							</div>
-
-						</div>
-					</div>
-				</section>
-
-			<!-- Footer -->
-				<section id="footer">
-					<div id="copyright" class="container">
-						<ul class="links">
-							<li>&copy; Foliant. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div>
-				</section>
-
+			</div>
 		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 	</body>
 </html>
